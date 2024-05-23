@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848548775891",
+    "project_id": "takeiteasy-c2abb",
+    "storage_bucket": "takeiteasy-c2abb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848548775891:android:984779ac7cff2033ed1126",
+        "android_client_info": {
+          "package_name": "com.play.ME"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGTA78L5uTup5lA_z8J6rW0YuX2DOpWY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
