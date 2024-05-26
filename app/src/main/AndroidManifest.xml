@@ -24,8 +24,10 @@
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
+        <!-- 스플래쉬 화면 -->
         <activity
             android:name=".MainActivity"
+            android:theme="@style/SplashTheme"
             android:exported="false">
         <activity
             android:name=".PostDetailActivity"
