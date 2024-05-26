@@ -9,8 +9,9 @@
 
     <!-- 스플래쉬 화면 -->
     <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-            <item name="windowNoTitle">true</item>
-            <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@drawable/splash_me</item>
     </style>
 
 </resources>
