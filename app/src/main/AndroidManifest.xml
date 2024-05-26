@@ -26,12 +26,12 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"/>
         <activity
             android:name=".PostDetailActivity"
             android:exported="false" />
             
-        //스플래쉬 화면
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme"
