@@ -1,8 +1,10 @@
-package com.example.firstapp;
+package com.play.ME;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.play.ME.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
