@@ -22,6 +22,7 @@ public class CreatePostActivity extends AppCompatActivity {
     private DatabaseReference mDatabaseRef;
     private DatabaseReference mUserRef;
     private String userName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +43,6 @@ public class CreatePostActivity extends AppCompatActivity {
                 UserAccount userAccount = dataSnapshot.getValue(UserAccount.class);
                 if (userAccount != null) {
                     userName = userAccount.getUserName();
-
                 }
             }
 
@@ -61,7 +61,7 @@ public class CreatePostActivity extends AppCompatActivity {
                 String postId = mDatabaseRef.push().getKey();
                 long timestamp = System.currentTimeMillis();
 
-                Post post = new Post(postId, userName, title, content, timestamp,userId);
+                Post post = new Post(postId, userName, title, content, timestamp);
                 mDatabaseRef.child("POST").child(postId).setValue(post);
 
 
