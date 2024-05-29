@@ -10,16 +10,21 @@ public class Post implements Serializable {
     private String content;
     private long timestamp;
 
+    private String userId;
+
+
+
     public Post() {
         // Default constructor required for calls to DataSnapshot.getValue(Post.class)
     }
 
-    public Post(String postId, String author, String title, String content, long timestamp) {
+    public Post(String postId, String author, String title, String content, long timestamp, String userId) {
         this.postId = postId;
         this.author = author;
         this.title = title;
         this.content = content;
         this.timestamp = timestamp;
+        this.userId=userId;
     }
 
     public String getPostId() { return postId; }
@@ -36,5 +41,13 @@ public class Post implements Serializable {
 
     public long getTimestamp() { return timestamp; }
     public void setTimestamp(long timestamp) { this.timestamp = timestamp; }
+    public String getuserId() {
+        return userId;
+    }
+
+    public void setuserId(String userId) {
+        this.userId = userId;
+    }
 }
+
 
